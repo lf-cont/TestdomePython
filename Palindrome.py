@@ -9,6 +9,6 @@
 
  #Passes 3/3 tests
 def is_palindrome(word):
-        retur word.lower()==word.lower()[::-1]
+        return word.lower()==word.lower()[::-1]
 
 print(is_palindrome('Deleveled'))
